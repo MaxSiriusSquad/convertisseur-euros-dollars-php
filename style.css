@@ -1,0 +1,76 @@
+body {
+    background-image:url(./dollars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-weight:700;
+    font-family: 'Merriweather', serif;
+
+}
+
+header {
+    border-bottom:1px solid black;
+}
+
+h1 {
+    color:black;
+    text-align:center;
+    text-decoration:underline;
+}
+
+main {
+    text-align:center;
+    margin: 50px 0;
+}
+
+img {
+    width:30%;
+    border-radius:50%;
+}
+
+.form-and-result {
+    /* display:flex;
+    justify-content:center; */
+    margin-top:20px;
+    border: solid 1px black;
+    margin: 20px 500px;
+    border-radius: 70px;
+}
+
+
+form {
+    margin:20px;
+}
+
+#nbEuros {
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    background-color:yellow;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:20px 0;
+    border:1px solid black;
+    padding:5px;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+a{
+    color:yellow;
+}
+
+a:hover{
+    color:blue;
+}
+
+footer {
+    color:black;
+    text-align:center;
+    border-top:1px solid black;
+    padding-top:10px;
+}
+
